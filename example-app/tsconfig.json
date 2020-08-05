@@ -11,7 +11,12 @@
       "noImplicitThis": true,
       "moduleResolution": "node",
       "module": "commonjs",
-      "types": ["cypress"]
+      "types": ["cypress"],
+      "baseUrl": ".",
+      "paths": {
+        "react": ["node_modules/@types/react"],
+        "admin-bro": ["node_modules/admin-bro"],
+      }
   },
   "include": [
       "./src/**/*",

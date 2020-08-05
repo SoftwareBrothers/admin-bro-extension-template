@@ -13,10 +13,10 @@
     react-datepicker "^3.1.3"
     styled-system "^5.1.4"
 
-"@admin-bro/express@^3.0.0-beta.1":
-  version "3.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@admin-bro/express/-/express-3.0.0-beta.1.tgz#df444f7a811621f8755dca19d7c130cc4677c8b7"
-  integrity sha512-RQemrf+sMUVdPkrniOxkBejvYvGgadxPn0Wg2tpHP2d8MRNbTN1aNIwLBB7yQgH/mYrs3vFYVOawIrj97rTBNA==
+"@admin-bro/express@^3.0.0-beta.3":
+  version "3.0.0-beta.3"
+  resolved "https://registry.yarnpkg.com/@admin-bro/express/-/express-3.0.0-beta.3.tgz#61fe45945712781a50c1092c926b5fe5a7bd3f71"
+  integrity sha512-ePTC8mFWN1RVSVGn30JxwPZR5v0vH+X/O+bvOURKwHEoIA0x/Ajy7Q/nkfJPVFkO8epi/uEAubpu8LYgAUMRaQ==
 
 "@babel/code-frame@^7.0.0", "@babel/code-frame@^7.10.4", "@babel/code-frame@^7.8.3":
   version "7.10.4"

@@ -34,8 +34,9 @@ In order to start working on an AdminBro feature/plugin/adapter follow this step
 -  `yarn link` (registers package in `linked packages` repository)
 5. cd example-app
 - `yarn install`
-- `yarn add NAME_OF_YOUR_PACKAGE`
-- `yarn link NAME_OF_YOUR_PACKAGE`
+- `yarn add ../`
+- `yarn link NAME_OF_YOUR_PACKAGE` // which is @admin-bro/extension by default
+- remove obsolete `@admin-bro/extension` dependency from package.json
 6. then in one terminal in the root folder run:
 - `yarn build --watch`
 7. in the second terminal in example app:

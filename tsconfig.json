@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+      "baseUrl": ".",
       "outDir": "./build",
       "target": "es2017",
       "esModuleInterop": true,
@@ -12,7 +13,11 @@
       "strictBindCallApply": true,
       "noImplicitThis": true,
       "moduleResolution": "node",
-      "module": "commonjs"
+      "module": "commonjs",
+      "paths": {
+        "react": ["node_modules/@types/react"],
+        "admin-bro": ["node_modules/admin-bro"],
+      }
   },
   "include": [
       "./src/**/*",
